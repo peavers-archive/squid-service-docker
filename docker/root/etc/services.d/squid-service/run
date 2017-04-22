@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv bash
+s6-setuidgid abc java -jar /app/squid-service/squid-service.jar server /config/config.yml
