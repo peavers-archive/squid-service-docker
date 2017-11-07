@@ -6,7 +6,7 @@ mkdir -p \
 	/app/squid-service/client/
 
 # download latest server
-wget -O /app/squid-service/squid-service.jar https://s3-ap-southeast-2.amazonaws.com/squid-service-releases/original-squid-service.jar -q --show-progress
+wget -O /app/squid-service/squid-service.jar https://s3-ap-southeast-2.amazonaws.com/squid-service-releases/squid-service.jar -q --show-progress
 
 # permissions
 chown -R abc:abc \
